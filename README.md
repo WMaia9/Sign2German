@@ -10,10 +10,10 @@ This project aims to bridge communication gaps for the deaf community by creatin
 - **End-to-End Pipeline**: Provides a complete pipeline from video input to text output, creating an efficient solution for sign language translation tasks.
 
 ## Results
-The model shows promising results in translating German Sign Language into German text. Further optimization is underway to improve gesture recognition and translation accuracy. [Consider adding specific metrics, such as accuracy or BLEU score, here if available.]
-
+The model shows promising results in translating German Sign Language into German text. Further optimization is underway to improve gesture recognition and translation accuracy.
 ## Repository Structure
 - **`Sign2Gloss.ipynb`**: Jupyter notebook for converting sign language gestures into intermediate gloss representations.
+- **`ASL2Text.ipynb`**: Jupyter notebook for converting American sign language gestures into direct to text.
 - **`extract_keypoints.py`**: Python script for extracting keypoints from video frames using MediaPipe.
 - **`model_code.py`**: Core model code, implementing the Transformer architecture for sequence-to-sequence translation.
 - **`predictions.ipynb`**: Jupyter notebook for running predictions on new sign language inputs and generating German text outputs.
